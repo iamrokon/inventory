@@ -48,3 +48,7 @@ Route::group(['as' => 'supplier.','prefix' => 'supplier','namespace' => 'Supplie
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
